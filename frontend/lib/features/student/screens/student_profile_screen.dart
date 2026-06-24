@@ -471,7 +471,7 @@ class _AiPoint extends StatelessWidget {
               children: [
                 Container(width: 6, height: 6, decoration: BoxDecoration(color: color, shape: BoxShape.circle)),
                 const SizedBox(width: 8),
-                Expanded(child: Text(p, style: const TextStyle(color: Colors.white80, fontSize: 13))),
+                Expanded(child: Text(p, style: const TextStyle(color: Colors.white70, fontSize: 13))),
               ],
             ),
           )),

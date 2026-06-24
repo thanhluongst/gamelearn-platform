@@ -166,7 +166,7 @@ class _JoinGameScreenState extends State<JoinGameScreen> {
                         ].asMap().entries.map((e) => Container(
                           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                           decoration: BoxDecoration(
-                            color: Colors.white20,
+                            color: Colors.white24,
                             borderRadius: BorderRadius.circular(20),
                           ),
                           child: Text(

@@ -170,7 +170,7 @@ class _GameResultScreenState extends State<GameResultScreen> {
 
           const Text(
             'Xuất sắc! Bạn đứng đầu lớp!',
-            style: TextStyle(color: Colors.white80, fontSize: 16),
+            style: TextStyle(color: Colors.white70, fontSize: 16),
           ).animate(delay: 400.ms).fadeIn(),
 
           const SizedBox(height: 16),
