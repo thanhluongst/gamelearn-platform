@@ -1,0 +1,13 @@
+# Default: auto-detect text vs binary
+* text=auto
+
+# Force LF for shell scripts (run on Linux servers)
+*.sh text eol=lf
+
+# Force LF for CI configs
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Force CRLF for Windows-specific files
+*.bat text eol=crlf
+*.cmd text eol=crlf
